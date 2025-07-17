@@ -8,7 +8,7 @@ class Program
     static void Main()
     {
         Console.ForegroundColor = ConsoleColor.Black;
-        Console.BackgroundColor = ConsoleColor.Yellow;
+        Console.BackgroundColor = ConsoleColor.DarkYellow;
         Console.Write("Ficheiros para zip (separados por espaço): ");
         string[] files = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
         string zipName = "output.zip";
